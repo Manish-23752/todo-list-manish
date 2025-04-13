@@ -1,0 +1,648 @@
+/* p{
+    color:red;
+    font-size: large;
+} */
+/* three type of selector in css
+1. element selector
+2. id selector
+3.class selector 
+
+priority of selector
+1. id then class then element
+*/
+
+  /* id selector */
+#p3 {
+    color:green;
+
+}
+
+/* class selector */
+
+.blue-text{
+    color:blue;
+    font-size: medium;
+    font-style: italic;
+
+}
+
+#h{
+    font-size: 60px;
+}
+
+.underline-h{
+    text-decoration: underline;
+}
+
+#bg{
+    background-color: greenyellow;
+}
+
+body{
+    background-color: pink;
+}
+
+  /* add background image */
+#bg{
+    background-color: blue;
+    /* single image making process */
+    /* background-image: url('magic.jpg'); */
+    /* multiple background image can be added */
+    background-image: url('dahi.jpeg') , url('magic.jpg') ;
+    
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    /* background-size: contain; */
+    /* background-attachment:scroll; */
+}
+
+ /* #border{ */
+    /* border-style:solid;
+    border-width: 4px;
+    background-color: brown;
+    border-color: chartreuse;
+    border-style: dotted; */
+    /* border:5px solid blueviolet; */
+    
+    /* border-top-style:solid;
+    border-top-width:10px;
+    border-top-color:grey;
+  
+    border-left-style:solid;
+    border-left-width:10px;
+    border-left-color:grey;
+
+    border-right-style:solid;
+    border-right-width:10px;
+    border-right-color:grey;
+
+    border-bottom-style:solid;
+    border-bottom-width:10px;
+    border-bottom-color:grey;
+
+     
+  height: 500px;
+  width: 70%; */
+
+
+
+
+/* }
+
+body{
+    border:500px 400px 300px 400px;
+
+    
+
+}  */
+/* 
+.border{
+    border:5px solid red; */
+    /* padding for  giving gap between border and word */
+    /* padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px; */
+/* 
+    padding:35px;
+} */
+
+/* body{
+    border:10px dotted black;
+} */
+
+/* #marg{
+   
+     margin:20px auto;
+}
+#colsp{
+    margin-bottom: 300px;
+} */
+
+#text{
+    width:300px;
+    border:5px solid black;
+    color:green;
+    text-align: center;
+    
+    text-decoration: underline;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+#text{
+    width:400px;
+  height:500px;
+    border:3px solid red;
+    /* vertical-align: middle; */
+    /* font-style: inherit; */
+    font-style: oblique;
+    font-size: x-large;
+    
+    
+}
+p{
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    a:link{
+    color:green;
+    }
+
+    a:visited{
+        color:black;
+
+    }
+
+    a:hover{
+        color:blue;
+
+    }
+    a:active{
+        color:purple;
+
+    }
+}
+
+#html{
+    font-size: 15px;
+}
+
+#parent{
+    /* border:2px solid red;
+    height: 50vh;
+    width: 50vw; */
+
+    font-size: 4rem;
+
+
+}
+
+#child{
+    /* border:3px solid black;
+    width:50%;*/
+
+    font-size: 2em;
+} 
+
+div{
+    /* border:1px solid blue;
+    cursor: all-scroll; */
+
+    border:1px solid green;
+    width:400px;
+    background-color: antiquewhite;
+    margin: 25px;
+    padding:25px;
+    box-shadow: 25px 28px 10px grey, -10px 30px 14px blue;
+
+
+}
+
+#color-box{
+    background-color: blue;
+    height: 200px;
+    width: 399;
+    margin-bottom: 20px;
+    opacity:0.8;
+}
+
+img:hover{
+    opacity:0.4;
+}
+/* 
+img{
+    filter:blur(5px);
+    filter:drop-shadow(10px 40px 5px 10px)
+} */
+
+#sprite{
+    height: 128px;
+    background-image: url('dahi.jpeg');
+    background-repeat: no-repeat;
+    background-position: opx -143px;
+}
+
+#gradient{
+    height: 500px;
+    border:5px solid green;
+    /* background-image: linear-gradient(to right,green, blue,pink); */
+    background-image: radial-gradient(green, blue,pink);
+}
+
+#overflow{
+    background-color: antiquewhite;
+    border:3px solid blue;
+    height: 100px;
+    width:599px;
+    overflow:auto;
+    resize:horizontal
+}
+
+ul{
+    list-style-type: square;
+}
+
+ol{
+    list-style-type: disc;;
+}
+
+:root{
+    --primary-color:teal;
+    --btn-color:blueviolet;
+    --text-color:white;
+}
+
+#fun{
+    background-color:var(teal);
+    height: 200px;
+    width:100%
+}
+
+a{
+    padding: 10px 30px;
+    margin:20px;
+    background-color:var(blue) ;
+    color: var(white);
+    text-decoration: none;
+}
+
+#div1{
+    background-color:blue;
+    width: 600px;
+    height: 150px;
+}
+
+#div2{
+    background-color: aqua;
+    width: 600px;
+    height: 150px;
+    padding: 50px;
+    margin: 100px;
+    border:10px solid black;
+}
+
+#green{
+  color:green;  
+}
+
+#blue{
+    color:pink;
+}
+
+#initial{
+    color:initial;
+}
+
+#inherit{
+    color:inherit;
+}
+
+img{
+    border:3px solid blue;
+    height:auto;
+    width:auto;
+   object-fit: auto;
+   object-position:top-center;
+}
+
+ /* pseudo clas desig */
+
+ li:first-child{
+    color:forestgreen;
+ }
+
+
+p::first-line{
+    font-size:27px;
+    color:Red;
+}
+
+h1::before{
+    /* content:url('magic.jpg' ) */
+    content:" added more  ";
+}
+
+ /* for selecting the words */
+::selection{
+    color:blue;
+    background-color: aqua;
+}
+
+
+/* MAIN PROPERTIES OF CSS */
+/* 
+BLOCK : DIV, P, H1,FORM
+
+ADVANTAGE: 1. NEW LINE , FULL WIDTH,HEIGHT AND WIDTH;
+
+INLINE : A TAG, IMG, SPAN;
+1.NOT NEW START
+2. NO FULL WIDTH
+3. NO HEIGHT AND WIDTH
+
+INLINE-BLOCK */
+/* NONE */
+
+.display{
+
+    width:50px;
+    height:100px;
+    display:inline;
+
+}
+/* 
+#div1{
+    display:none;
+}
+
+#parent{
+/* border:2px solid red; */
+/* padding:50px;
+width:50%
+}
+
+#one{
+ width:100px;
+ height:100px;
+ background-color: blue;
+ display:inline-block;
+ position:relative;
+ z-index: 3;
+}
+
+#two{
+    width:100px;
+    height:100px;
+    background-color: green;
+    display:inline-block;
+    position:relative;
+    top:100px;
+    left:-100px;
+    z-index:2;
+    
+}
+
+#three{
+    width:100px;
+    height:100px;
+    background-color: black;
+    display:inline-block;
+    position:relative;
+    top:200px;
+    left:-200px;
+    z-index:1; */
+/* } */
+
+ul{
+    background-color:green;
+    list-style-type: none;
+    /* border:2px solid black; */
+    overflow:auto;
+}
+
+li{
+    color:white;
+    padding: 15px 20px;
+    float:right;
+    initial-letter-align: right;
+
+}
+
+p{
+    border:1px solid red;
+    overflow: auto;
+    padding: 50px;
+}
+
+#img1{
+    float:right;
+}
+
+#img2{
+    float:right;
+    clear: right;
+}
+
+#content{
+    width:70%;
+    background-color: green;
+    height:200px;
+    float:left;
+}
+
+#sidebar{
+    width:30%;
+    background-color:blue;
+    height:200px;
+    float:left;
+}
+
+#footer{
+    background-color: yellow;
+    clear:both;
+}
+from{background-color: blanchedalmond;}
+#wrapper{
+    padding: 20px;
+    margin:20px;
+    color:greenyellow;
+}
+
+a{
+    text-decoration: none;
+    background-color: blue;
+    padding: 10px 20px;
+    color:white;
+    display:inline-block;
+    transform:skew(20deg,10deg);
+    
+}
+/* 
+a:hover{
+    display: inline-block;
+    /* transform:rotate(20deg); */
+    /* transform:translate(50px, 50px);
+    transform:scale(2,4);
+} */ 
+
+#cover{
+    border:2px solid red;
+    height: 200px;
+    width:200px;
+    margin: 150px;
+    transform:perspective(300px) rotate3d(30, 34, 54, 45deg);
+}
+
+#div1{
+    height:200px;
+    width:100px;
+    background-color: black;
+    margin:100px;
+    transition-property: all;
+    transition-duration: 1sec;
+    transition-delay:500ms;
+
+}
+
+#div1:hover{
+    width:300px;
+
+}
+
+/* animation creating */
+
+@keyframes change-color {
+    /* from{background-color: blanchedalmond;}
+    to{background-color: wheat;} */
+
+    
+    0%{background-color: blanchedalmond;}
+    20%{width:200px;}
+    40%{background-color: gray;}
+    60%{height: 200px;}
+    80%{background-color: violet;}
+    100%{background-color: purple;}
+}
+
+#animate1{
+    background-color:red;
+    height: 300px;
+    width: 300px;
+    animation-name: change-color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+}
+
+#animate2{
+    background-color:blue;
+    height: 300px;
+    width: 300px;
+    animation-name: change-color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+ /* printing website technique */
+@media screen{
+  p{
+    font-size:40px;
+  }
+}
+/* 
+@media print{
+    p{
+        font-size:30px;
+        color:blue;
+    }
+
+    img{
+        display:none;
+
+    }
+
+    div{
+        width:1000px;
+    }
+
+} */
+
+@media screen and (max-width:768px){
+    #div1{
+        width:50%
+    }
+
+    #div2{
+        width:50%;
+        color: blueviolet;
+    }
+}
+
+/* A RESPONSIVE FRAMEWORK IS BOOTSTRAP AND SKELETON CSS AND PURE CSS
+AND FOUNDATION CSS  */
+
+@media screen and(min-width:400px) and (max-widh:768px){
+    #div1{
+        width:100%
+    }
+
+    #div2{
+        width:100%;
+        color:white;
+        background-color:black;
+    }
+}
+
+
+.flex-container{
+    background-color:bisque;
+    display:flex;
+    width:2000px;
+    
+    /* flex-flow: row wrap; */
+    /* height:70vh;
+    width:100px; */
+    /* align-items: center;
+    flex-wrap: wrap; */
+    /* flex-direction: row-reverse; */
+    /* justify-content: center; */
+
+}
+
+.flex-child{
+    background-color:black;
+    color:brown;
+    margin:20px;
+    padding:20px;
+    width:100px;
+    text-align: center;
+
+}
+
+#one{
+ order: 1;
+ flex-grow: 1;
+ flex-shrink:4;
+ align-self: flex-start;
+}
+
+#two{
+ order:3;
+ flex-grow: 1;
+ align-self: center;
+}
+
+#three{
+    order:2;
+    flex: grow 1;
+    align-self: flex-end;
+}
+
+.grid-container{
+    background-color: indianred;
+    padding: 20px;
+    margin:30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap:10px;
+    grid-row-gap:10px;
+    justify-content: space-evenly;
+
+}
+
+.grid-item{
+    background-color: aliceblue;
+    border: 2px solid red;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#grid1{
+  grid-row:1/3;
+}
